@@ -1,0 +1,4 @@
+packages: *
+multi-repl: True
+tests: True
+benchmarks: True

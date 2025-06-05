@@ -1,0 +1,20 @@
+cabal-version: 3.8
+name: skeleton
+version: 0.1
+build-type: Simple
+
+common defaults
+  default-language: GHC2021
+
+library
+  import: defaults
+  hs-source-dirs: src
+  build-depends: base
+  exposed-modules:
+    Skeleton.Main
+
+executable skeleton
+  import: defaults
+  hs-source-dirs: src-bin
+  main-is: Main.hs
+  build-depends: base, skeleton

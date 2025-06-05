@@ -1,0 +1,8 @@
+# haskell
+cabal.project.local
+dist-newstyle/
+ghcid-output.txt
+
+# nix
+result
+result-*
